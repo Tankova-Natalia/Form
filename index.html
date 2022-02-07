@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="newcss.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Запись на курсы программирования</h1><hr>
+        <form action="" method="post">
+            <p>
+                <label for="student_name">Имя:</label><br>
+                <input type="text" placeholder="Андрей" name="student_name" id="student_name">   
+            </p>
+            <p>
+                <input type="radio"  id="java" name="lang" checked>
+                <label for="java">Java</label>
+                <input type="radio" name="lang" id="cpp">
+                <label for="cpp">C++</label>
+                <input type="radio"  name="lang" id="python">
+                <label for="python">Python</label>
+                <input type="radio"  name="lang" id="php">
+                <label for="php">PHP</label>
+                <input type="radio"  name="lang" id="js">
+                <label for="js">JavaScript</label>
+            </p>
+            <p>
+                <label for="description">Дополнительная информация:</label><br>
+                <textarea class="textarea" name="comment" form="usrform" placeholder="Есть опыт программирования на Java" id="description"></textarea><br>
+
+            </p>
+            <p>
+                <label for="password">Секретное слово:</label><br>
+                <input type="password" id="password"><br>
+            </p>
+            <p>
+                <input type="checkbox" id="agree">
+                <label for="agree">С правилами ознакомился и согласен</label><br>
+            </p>
+            <p>
+                <input type="submit" value="Отправить">
+                <input type="reset" value="Очистить"> 
+            </p>
+
+        </form>
+        <hr>
+        <p>Made by Natalia</p>
+    </body>
+</html>
